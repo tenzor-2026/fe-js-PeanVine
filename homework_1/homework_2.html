@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_homework</title>
+    <link rel="stylesheet" href="outer.css">
+</head>
+
+<body>
+    <div class="whole_page">
+        <div class="guide">
+            <a href="https://space.bilibili.com/35599185?spm_id_from=333.337.search-card.all.click" target="_blank"><img
+                    src="guidance_title.png" alt="Tenzor.png"></a>
+            <div class="one">面试管理</div>
+            <div class="two">时间表</div>
+            <div class="three">面试题目</div>
+            <div class="four">数据可视化</div>
+        </div>
+        <div class="page">
+            <div class="title">欢迎回来，挑战!</div>
+            <div class="main1">
+                <div class="main2">
+                    <div class="container">
+                        <div class="image">
+                            <img src="Artistic_department.png" alt="Artistic_department">
+                            <img src="Technology_department.png" alt="Artistic_department">
+                            <img src="V_Produce_department.png" alt="V_Produce_department">
+                        </div>
+                        <script src="Picture_JavaScript.js"></script>
+                    </div>
+                    <div class="whole_search">
+                        <form>
+                            <div class="select">筛选<input type="text" placeholder="请输入学生姓名" class="selector"></div>
+                            <div class="search">
+                                <div class="situation">
+                                    <label>状态</label>
+                                    <select class="situa" id="situa">
+                                        <option value="">全部</option>
+                                        <option value="已通过">已通过</option>
+                                        <option value="未通过">未通过</option>
+                                    </select>
+                                </div>
+                                <div class="department" id="department">
+                                    <label>部门</label>
+                                    <select class="depart" id="depart">
+                                        <option value="">全部</option>
+                                        <option value="美工部">美工部</option>
+                                        <option value="技术部">技术部</option>
+                                        <option value="视频部">视频部</option>
+                                    </select>
+                                </div>
+                                <div class="reset" id="reset">
+                                    <input type="reset" value="重置筛选" class="re">
+                                </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="user">
+                   <div class="student-list" id="student-list">
+                    <!-- 学生卡片将通过JavaScript动态生成 -->
+                </div>
+                </div>
+            </div>
+            <div class="main3">
+                <div class="detail">
+                    <button class="face_detail"><b>面试详情</b></button>
+                    <div class="detail_information hidden" id="detail_information">
+                        <div class="information">
+                            <span class="stu" id="base1"><b>基本信息</b></span>
+                            <div class="stu">
+                                <div class="entername">
+                                    <span>姓名</span><input type="text" placeholder="请输入姓名" class="stuname">
+                                </div>
+                            </div>
+                            <div class="stu">
+                                <div class="enterpass">
+                                    <span>是否通过</span>
+                                    <select class="stupass">
+                                        <option>通过</option>
+                                        <option>未通过</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test">
+                            <span id="base2"><b>面试题目</b></span>
+                            <video controls src="1655461892-1-100026.mp4" width="450px" class="video">
+                            </video>
+                            <span>题目ID:01<br>(题目内容获取中)...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Selector_JavaScript.js"></script>
+</body>
+
+</html>
